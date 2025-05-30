@@ -120,5 +120,98 @@ WAMS can detect early warning signs of grid stress or cascading failures and tri
 
 ![image](https://github.com/user-attachments/assets/6135bbad-5511-4451-8513-d923d4fc08c3)
 
+# Mathematical Formulation
+
+# Synchrophasor Measurement
+
+A synchrophasor is a phasor estimated using samples of a waveform that are synchronized to a common time reference (e.g., UTC).
+
+𝑉(𝑡)=2𝑉𝑟𝑚𝑠cos(𝜔𝑡+𝜙)⇒𝑉⃗=𝑉𝑟𝑚𝑠∠𝜙
+Where:
+
+V(t): Instantaneous voltage
+
+𝑉𝑟𝑚𝑠 : Root mean square of voltage
+
+ϕ: Phase angle
+
+ω: Angular frequency
+
+# Benefits of WAMS
+
+Enhanced system reliability and resilience
+
+Faster fault detection and location
+
+Improved situational awareness
+
+Better integration of renewable energy sources
+
+More effective grid control and automation
+
+# Challenges and Considerations
+
+High installation cost of PMUs and communication infrastructure
+
+Cybersecurity and data privacy concerns
+
+Large data volumes requiring efficient processing
+
+Integration with existing SCADA systems
+
+# Conclusion
+
+WAMS represents a transformative advancement in grid monitoring and control, providing high-resolution, time-synchronized data that enables real-time decision-making. By deploying PMUs strategically across the 
+
+network, utilities can improve system reliability, avoid blackouts, and accommodate the growing complexity of modern power systems.
+
+# References
+
+Phadke, A. G., & Thorp, J. S. (2008).
+
+Synchronized Phasor Measurements and Their Applications. Springer.
+
+ISBN: 978-0387751151
+
+➤ A foundational book that introduces PMUs and their application in WAMS.
+
+IEEE Standard C37.118.1-2011
+
+IEEE Standard for Synchrophasor Measurements for Power Systems.
+
+➤ Defines the requirements for PMU measurements, including accuracy and time synchronization.
+
+Zhang, J., et al. (2010).
+
+“Wide-area real-time monitoring and control framework for power systems based on synchrophasor technology.”
+
+Electric Power Systems Research, 81(1), 132-138.
+
+[DOI: 10.1016/j.epsr.2010.07.019]
+
+➤ Discusses a WAMS framework and how synchrophasors improve monitoring.
+
+
+Fardanesh, B. (2002).
+
+"Dynamic data measurement and applications in wide-area monitoring systems."
+
+Proceedings of the IEEE Power Engineering Society Summer Meeting, Vol. 1.
+
+➤ Presents applications of PMU data in real-time system monitoring.
+
+Kezunovic, M., et al. (2013).
+
+The Role of Digital Technology in Wide-Area Monitoring, Protection, and Control.
+
+Proceedings of the IEEE, Vol. 99, No. 1, pp. 80–93.
+
+➤ Provides insight into digital infrastructure requirements for WAMS.
+
+U.S. Department of Energy (DOE) – Synchrophasor Technologies and their Deployment in the U.S.
+
+https://www.energy.gov/oe/technology-development/grid-modernization-and-smart-grid/synchrophasor-technologies
+
+➤ A comprehensive government resource detailing PMU deployment and WAMS adoption in the U.S.
 
 
