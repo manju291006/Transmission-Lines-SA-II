@@ -62,5 +62,63 @@ Systems are designed to scale across large networks and are compatible with vari
 
 ![image](https://github.com/user-attachments/assets/6b9b05ca-e51b-4660-bb44-55ffd7245d4c)
 
+# 1. Phasor Measurement Units (PMUs)
+
+PMUs are the backbone of WAMS. They measure electrical waves on an electricity grid to determine the magnitude and phase angle of the sinusoidal waveforms of voltage and current.
+
+Phasor representation:
+
+A sinusoidal signal:
+
+𝑥(t)=𝑋𝑚cos⁡(𝜔𝑡+𝜙)
+
+x(t)=Xmcos(ωt+ϕ)
+
+Can be represented as a phasor:
+
+𝑋⃗=𝑋𝑚∠𝜙 =Xm∠ϕ
+
+Using complex notation:
+
+𝑋⃗=𝑋𝑒𝑗𝜙
+
+X=X me jϕ
+ 
+# 2. GPS Time Synchronization
+
+GPS signals provide time stamps to PMU data to ensure synchronized measurements across the grid.
+
+# 3. Phasor Data Concentrators (PDCs)
+
+PDCs collect, align, and transmit synchronized phasor data from multiple PMUs to a control center.
+
+# 4. Communication Infrastructure
+
+A robust and secure communication network (fiber optics, microwave, etc.) is essential for real-time data transfer.
+
+# Applications of WAMS
+
+1. Real-time Grid Monitoring
+
+WAMS provides visibility into power system dynamics, allowing operators to detect and respond to faults and instabilities rapidly.
+
+2. State Estimation
+
+WAMS enhances the accuracy of state estimation by providing real-time, synchronized data, which helps in calculating the current operational state of the power system.
+
+3. Voltage Stability Monitoring
+
+By observing phase angle differences and voltage magnitudes, WAMS helps in maintaining voltage stability across the network.
+
+4. Disturbance Detection and Localization
+
+Sudden changes in system conditions (e.g., line tripping, generator loss) can be detected and localized quickly using PMU data.
+
+5. Blackout Prevention
+
+WAMS can detect early warning signs of grid stress or cascading failures and trigger preventive actions.
+
+![image](https://github.com/user-attachments/assets/6135bbad-5511-4451-8513-d923d4fc08c3)
+
 
 
